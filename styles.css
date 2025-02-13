@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c;
+    color: #f0f0f0;
+    box-sizing: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #f0f0f0;
+}
+
+header .logo {
+    width: 150px;
+    height: auto;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #c0c0c0;
+}
+
+header nav .nav-icon {
+    width: 50px;
+    height: auto;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+#generos {
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 25px 0;
+    flex-wrap: wrap;
+}
+
+.button-container a {
+    text-decoration: none;
+}
+
+.genre-button {
+    padding: 15px 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+    background-color: #000;
+    color: #f0f0f0;
+    border: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.genre-button:hover {
+    background-color: #ff0000;
+}
+
+.products-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    width: 250px;
+    background-color: #3d0e0e;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #f0f0f0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-name {
+    margin-top: 10px;
+}
+
+.product-name label {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.ver-mais {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: #333;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #350606;
+    margin: 20px 0;
+}
+
+.login-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #490909, #000);
+}
+
+.login-container {
+    background-color: rgba(212, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 70px;
+    box-shadow: 0 4px 8px rgba(255, 238, 0, 0.938);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-container h1 {
+    margin-bottom: 20px;
+    color: #ff0000;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container label {
+    margin: 10px 0 5px;
+    text-align: left;
+    color: #ff0000;
+}
+
+.login-container input {
+    padding: 10px;
+    border: 1px solid #242424;
+    border-radius: 5px;
+    background-color: #333;
+    color: #f0f0f0;
+    transition: border-color 0.3s;
+}
+
+.login-container input:focus {
+    border-color: #410c0c;
+    outline: none;
+}
+
+.login-container button {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00c3ff;
+    color: #f0f0f0;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-container button:hover {
+    background-color: #d3d3d3;
+}
